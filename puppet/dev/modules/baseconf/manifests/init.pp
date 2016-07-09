@@ -39,4 +39,9 @@ class baseconf {
     unless => 'which docker-compose'
   }
 
+  exec { 'install ansible':
+    command => 'pip install ansible && pip install --upgrade setuptools',
+    unless => 'which ansible'
+  }
+
 }
