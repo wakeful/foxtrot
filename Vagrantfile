@@ -6,6 +6,7 @@ Vagrant.configure(2) do |config|
   config.vm.box = "debian/contrib-jessie64"
 
   config.vm.hostname = "foxtrot"
+  config.ssh.pty = true
 
   config.vm.provider "virtualbox" do |vb|
 
