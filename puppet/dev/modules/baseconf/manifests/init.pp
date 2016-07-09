@@ -44,4 +44,8 @@ class baseconf {
     unless => 'which ansible'
   }
 
+  class { 'terraform':
+    version => '0.6.16',
+  }
+
 }
