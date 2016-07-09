@@ -1,6 +1,6 @@
 class baseconf {
 
-  package { ['apt-transport-https', 'ca-certificates', 'git', 'mutt', 'python-setuptools', 'tmux', 'vim']:
+  package { ['apt-transport-https', 'ca-certificates', 'git', 'libffi-dev', 'libssl-dev', 'mutt', 'python-dev', 'python-setuptools', 'tmux', 'unzip', 'vim']:
     ensure => present
   }
 
