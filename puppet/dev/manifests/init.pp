@@ -1,2 +1,3 @@
 include baseconf
+include packer
 include terraform

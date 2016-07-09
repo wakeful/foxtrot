@@ -44,6 +44,10 @@ class baseconf {
     unless => 'which ansible'
   }
 
+  class { 'packer':
+    version => '0.10.1',
+  }
+
   class { 'terraform':
     version => '0.6.16',
   }
