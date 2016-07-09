@@ -1,3 +1,6 @@
 [submodule "puppet/dev/modules/terraform"]
 	path = puppet/dev/modules/terraform
 	url = https://github.com/wakeful/puppet-terraform.git
+[submodule "puppet/dev/modules/packer"]
+	path = puppet/dev/modules/packer
+	url = https://github.com/wakeful/puppet-packer.git
