@@ -17,6 +17,7 @@ Vagrant.configure(2) do |config|
 
   end
 
+  config.vm.provision :shell, :inline => "apt-get install -y curl"
   config.vm.provision :shell, :path => "https://raw.githubusercontent.com/wakeful/puppet-bootstrap/master/deb.sh"
 
   config.vm.provision :puppet do |puppet|
