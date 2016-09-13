@@ -24,8 +24,6 @@ Vagrant.configure(2) do |config|
     puppet.environment = "dev"
     puppet.environment_path = "puppet"
 
-    puppet.options = "--verbose --debug"
-
   end
 
 end
